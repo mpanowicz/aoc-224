@@ -12,3 +12,11 @@ func ParseInt(s string) int {
 	}
 	return v
 }
+
+func ParseInts(s []string) []int {
+	var v []int
+	for _, i := range s {
+		v = append(v, ParseInt(i))
+	}
+	return v
+}
