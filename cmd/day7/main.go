@@ -3,10 +3,8 @@ package main
 import (
 	"aoc/internal/helpers"
 	"bufio"
-	"fmt"
 	"math"
 	"os"
-	"reflect"
 	"strings"
 )
 
@@ -91,8 +89,6 @@ func solution() (int, int) {
 		}
 	}
 
-	typeofP2 := reflect.TypeOf(sumP2)
-	fmt.Println("Type of sumP2: ", typeofP2)
 	return sumP1, sumP2
 }
 
