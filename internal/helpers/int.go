@@ -27,3 +27,10 @@ func Abs(n int) int {
 	}
 	return n
 }
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
